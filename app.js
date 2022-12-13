@@ -10,11 +10,11 @@ document.getElementById("btn").onclick = function(){
         document.getElementById("message").innerHTML = (`${answer} Is the number it took you ${guesses} guesses`);
     }
     else if(guess < answer){
-        document.getElementById("msg").innerHTML = ("Too small!");
+        document.getElementById("msg").innerHTML = ("Wrong");
         
     }
     else{
-        document.getElementById("msg").innerHTML = ( "Too large");
+        document.getElementById("msg").innerHTML = ( "Wrong");
         
     }
 }
